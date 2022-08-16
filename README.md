@@ -38,6 +38,11 @@ sudo raspi-config
 sudo apt install chromium
 ```
 
+Run this command to resolve an import error for Numpy
+```shell
+sudo apt-get install libatlas-base-dev
+```
+
 4. Clone the repo and create and activate a virtual environment and install dependencies
 ```shell
 cd mcal/
